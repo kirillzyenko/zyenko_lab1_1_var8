@@ -18,4 +18,17 @@
     <ClCompile Include="glew.c" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment_shader.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="vertex_shader.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader_loader.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
